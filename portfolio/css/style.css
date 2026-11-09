@@ -599,3 +599,31 @@ footer {
 .page-e5 .liens a.actif {
     border-bottom: 2px solid #a78bfa;
 }
+
+/* Style des boutons dans les cartes de projets (identique aux autres boutons du site) */
+.liens-carte {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-site,
+.btn-git {
+    color: white;
+    background: #7655c9;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: background 0.2s ease;
+}
+
+.btn-site:hover,
+.btn-git:hover {
+    background: #a78bfa;
+}
